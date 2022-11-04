@@ -15,7 +15,7 @@ describe('CustomSession', () => {
   beforeEach(() => {
     // Custom sessions write the token to storage.
     // Clear this value otherwise state leaks between tests.
-    storage.del('privy:token');
+    storage.del('privy_datastore:token');
   });
 
   it('works', async () => {

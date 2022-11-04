@@ -12,7 +12,7 @@ const DEFAULT_EXPIRATION_PADDING_IN_SECONDS = 30;
 
 // Store the privy token under this key so that it
 // can persist between page refreshes and browser tabs.
-const TOKEN_STORAGE_KEY = 'privy:token';
+const TOKEN_STORAGE_KEY = 'privy_datastore:token';
 
 /**
  * `CustomSession` implements the {@link Session} interface. `CustomSession` can be used to authenticate to Privy through your own backend.
