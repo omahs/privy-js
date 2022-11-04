@@ -1,3 +1,9 @@
+# 2022-11-4 - 0.0.3
+
+### New functionality
+
+* LocalStorage key name changed
+
 # 2022-07-20 - 0.0.2
 
 ### New functionality
